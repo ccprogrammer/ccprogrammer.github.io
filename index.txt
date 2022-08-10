@@ -4,21 +4,21 @@ vCard - Personal Portfolio
 
 alt = Lubianca Samora
 Lubianca Samora
-Web developer
+Flutter Developer
 
 Show Contacts
 
 Email
-richard@example.com
+lubianca.samora@gmail.com
 
 Phone
-+1 (213) 352-2795
++6285880853298
 
 Birthday
-June 23, 1982
+January 06, 2000
 
 Location
-Sacramento, California, USA
+Jakarta, Indonesia
 
 # navbar
 
@@ -32,9 +32,9 @@ Contact
 
 About me
 
-I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+ Bachelor degree in Computer Science who is comfortable working with Flutter Framework with 7 months of proven experience as Flutter Developer in Indonesian Startup OneSmile.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+ My job is to build client request feature as clean as possible in terms of ui and function, I got used to work with a week sprints, weekly release cycle, scrum methodology working process and communicate very well with backend team. I'm very familiar with RESTful API / REST API, JSON, Provider & GetX State Management, Firebase, and Git Version Control.
 
 
 ## service
