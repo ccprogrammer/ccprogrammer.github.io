@@ -557,6 +557,44 @@ main {
 
 
 /**
+* #preview
+*/
+
+.preview-item {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+}
+
+
+.preview-item::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+.preview-icon-box { margin-bottom: 10px; }
+
+.preview-icon-box img { margin: auto; }
+
+.preview-content-box { text-align: center; }
+
+.preview-item-title { margin-bottom: 7px; }
+
+.preview-item-text {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-3);
+  line-height: 1.6;
+}
+
+/**
  * #testimonials 
  */
 
