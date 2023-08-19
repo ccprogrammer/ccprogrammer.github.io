@@ -544,6 +544,12 @@ small {
 #more5 {
   display: none;
 }
+#more6 {
+  display: none;
+}
+#more7 {
+  display: none;
+}
 
 .project .readMore {
   color: var(--accent-clr);
