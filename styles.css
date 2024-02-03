@@ -479,10 +479,18 @@ small {
 }
 
 .my-skills ul {
-  padding-block-start: 5rem;
+  padding-block-start: 3rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 3.2rem 1rem;
+}
+
+.technologies {
+  margin-top: 0px;
+}
+
+.technologies.list {
+  margin-top: 48px;
 }
 
 /*******************
