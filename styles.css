@@ -485,6 +485,11 @@ small {
   gap: 3.2rem 1rem;
 }
 
+.subtitle.tools {
+  color: var(--tag-clr);
+  font-weight: 600;
+}
+
 .technologies {
   margin-top: 0px;
 }
