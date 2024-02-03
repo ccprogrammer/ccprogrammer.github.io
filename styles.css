@@ -361,6 +361,12 @@ small {
   color: var(--other-clr);
 }
 
+.hero .hero-text {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
 .hero img {
   max-width: 375px;
 }
@@ -373,6 +379,7 @@ small {
   margin-block-start: 5rem;
   display: flex;
   /* align-items: center; */
+  justify-content: center;
 }
 
 .hire-btn {
