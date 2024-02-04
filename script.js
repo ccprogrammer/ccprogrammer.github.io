@@ -107,7 +107,7 @@ const projectsData = [
     title: "Layar",
     imageSrc: "./assets/projects/layar.png",
     description:
-      "Layar is a streaming platform showcasing programs by TVRI.</br></br>As the Lead Frontend Developer, I initiated and integrated the project, incorporating UI design and the provided REST API from the team. Working independently, I served as the sole front-end developer throughout the 7-month project.",
+      "Layar is a streaming platform showcasing programs by TVRI. As the Lead Frontend Developer, I initiated and integrated the project, incorporating UI design and the provided REST API from the team. Working independently, I served as the sole front-end developer throughout the 7-month project.",
     techStack: [
       "Flutter",
       "RESTful Api",
