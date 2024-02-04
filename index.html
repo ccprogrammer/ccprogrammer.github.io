@@ -44,7 +44,7 @@
     <script src="./script.js" defer></script>
     <title>Lubianca - Frontend Developer</title>
   </head>
-  <body>
+  <body onload="generateProjects()">
     <!-- only for keyboard users -->
     <a class="skip-to-content" href="#main-content">Skip to content</a>
 
@@ -254,6 +254,7 @@
       <!-- projects section -->
       <section class="projects-section" id="projects">
         <div class="container">
+          <!-- Project Title -->
           <article data-aos="fade-up">
             <p class="subtitle">My projects</p>
             <h2 class="title">Some Things I Built</h2>
@@ -262,9 +263,16 @@
               look at some of the applications I've have built
             </p>
           </article>
+
+          <!-- Dyanmic HTML Projects -->
+          <section class="projects">
+            <div id="project-list"></div>
+          </section>
+
+          <!-- Static HTML Projects -->
           <section class="projects">
             <!-- project 1 -->
-            <article class="project">
+            <!-- <article class="project">
               <a
                 href="https://akadevo.com/"
                 target="_blank"
@@ -337,9 +345,10 @@
                   </li>
                 </ul>
               </div>
-            </article>
+            </article> -->
+
             <!-- project 2 -->
-            <article class="project">
+            <!-- <article class="project">
               <a
                 href="https://play.google.com/store/apps/details?id=com.tvri.layar"
                 target="_blank"
@@ -405,9 +414,10 @@
                   </li>
                 </ul>
               </div>
-            </article>
+            </article> -->
+
             <!-- project 3 -->
-            <article class="project">
+            <!-- <article class="project">
               <a
                 href="https://onesmile.digital/"
                 target="_blank"
@@ -461,9 +471,10 @@
                   </li>
                 </ul>
               </div>
-            </article>
+            </article> -->
+
             <!-- project 5 -->
-            <article class="project">
+            <!-- <article class="project">
               <a
                 href="https://play.google.com/store/apps/details?id=com.homerun.homerunclient"
                 target="_blank"
@@ -518,9 +529,10 @@
                   </li>
                 </ul>
               </div>
-            </article>
+            </article> -->
+
             <!-- project 6 -->
-            <article class="project">
+            <!-- <article class="project">
               <a
                 href="https://locumhere.com/"
                 target="_blank"
@@ -556,9 +568,10 @@
                   </li>
                 </ul>
               </div>
-            </article>
+            </article> -->
+
             <!-- project 7 -->
-            <article class="project">
+            <!-- <article class="project">
               <a
                 href="https://alomaid.com/id"
                 target="_blank"
@@ -596,7 +609,8 @@
                   </li>
                 </ul>
               </div>
-            </article>
+            </article> -->
+
           </section>
           <!-- others -->
           <section class="other-noteworthy-project" data-aos="fade-up">
