@@ -518,7 +518,7 @@ small {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   place-items: start;
   gap: 5rem;
-  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .project-img {
