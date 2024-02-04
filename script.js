@@ -137,8 +137,14 @@ function generateProjects() {
   const projectsContainer = document.getElementById("project-list");
 
   projectsData.forEach((project, index) => {
+    const marginTopStyle = index > 0 ? "margin-top: 120px;" : "";
+
+    const webLinkHtml = project.webLink
+      ? `<li><a href="${project.webLink}" target="_blank" rel="noreferrer" class="hover-effect">Web →</a></li>`
+      : "";
+
     const projectHtml = `
-      <article class="project">
+      <article class="project" style="${marginTopStyle}">
         <a href="${
           project.webLink
         }" target="_blank" rel="noreferrer" class="project-img">
@@ -160,9 +166,7 @@ function generateProjects() {
                   } →</a></li>`
               )
               .join("")}
-            <li><a href="${
-              project.webLink
-            }" target="_blank" rel="noreferrer" class="hover-effect">Web →</a></li>
+           ${webLinkHtml}
           </ul>
         </div>
       </article>
