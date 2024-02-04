@@ -46,7 +46,7 @@ const projectsData = [
     title: "Alomaid",
     imageSrc: "./assets/projects/alomaid.jpg",
     description:
-      "Alomaid is a website-based application designed to serve as a mediator between Malaysian employers and household assistants from Indonesia.</br></br>I serve as the Lead Fullstack Programmer, using various development tools throughout the application's development from inception.",
+      "Alomaid is a website-based application designed to serve as a mediator between Malaysian employers and household assistants from Indonesia. I serve as the Lead Fullstack Programmer, using various development tools throughout the application's development from inception.",
     techStack: [
       "FlutterFlow",
       "Xano",
@@ -63,7 +63,7 @@ const projectsData = [
     title: "Akadevo",
     imageSrc: "./assets/projects/akadevo.png",
     description:
-      "Akadevo is a mobile app for school attendance tracking, scanning student cards with RFID through staff or teachers' mobile devices. Parents can monitor attendance in real-time. </br></br>As the Lead Frontend Mobile Developer using Flutter, I initiated and completed the project in 3 months, integrating UI designs and the provided REST API",
+      "Akadevo is a mobile app for school attendance tracking, scanning student cards with RFID through staff or teachers' mobile devices. Parents can monitor attendance in real-time. As the Lead Frontend Mobile Developer using Flutter, I initiated and completed the project in 3 months, integrating UI designs and the provided REST API",
     techStack: ["Flutter", "RESTful Api", "Firebase", "RFID", "Django"],
     playstoreLinks: [
       "https://play.google.com/store/apps/details?id=com.akadevo.staff",
@@ -75,7 +75,7 @@ const projectsData = [
     title: "Digital Village",
     imageSrc: "./assets/projects/digital-village.png",
     description:
-      "Digital Village is a social application designed for community use, adaptable for various communities with different names in India.</br></br>As a freelance Flutter developer, my responsibility includes implementing several crucial features within this application.",
+      "Digital Village is a social application designed for community use, adaptable for various communities with different names in India. As a freelance Flutter developer, my responsibility includes implementing several crucial features within this application.",
     techStack: ["Flutter", "RESTful Api", "MongoDB"],
     playstoreLinks: [
       "https://play.google.com/store/apps/details?id=com.opensort.org.Rajakkamangalam",
@@ -87,7 +87,7 @@ const projectsData = [
     title: "Locum Here - Medical App",
     imageSrc: "./assets/projects/locumhere.png",
     description:
-      "LocumHere is an intermediary application connecting doctors and clinics in Malaysia.</br></br>Clinics can search for or hire temporary doctors to perform specific tasks within the clinic. As a freelance developer, I was responsible for continuing and completing the project using FlutterFlow within a month.",
+      "LocumHere is an intermediary application connecting doctors and clinics in Malaysia. Clinics can search for or hire temporary doctors to perform specific tasks within the clinic. As a freelance developer, I was responsible for continuing and completing the project using FlutterFlow within a month.",
     techStack: ["FlutterFlow", "RESTful Api", "Xano"],
     playstoreLinks: [],
     webLink: "https://locumhere.com/",
@@ -96,7 +96,7 @@ const projectsData = [
     title: "OneSmile",
     imageSrc: "./assets/projects/onesmile.png",
     description:
-      "OneSmile is an application serving residents in the BSD area of Tangerang City. This app offers various features including community engagement, shopping, and utility bill payments.</br></br>In my role as a Middle Programmer, I am responsible for implementing various requested features, contributing to the development of the app over a period of approximately 1 year and 7 months.",
+      "OneSmile is an application serving residents in the BSD area of Tangerang City. This app offers various features including community engagement, shopping, and utility bill payments. In my role as a Middle Programmer, I am responsible for implementing various requested features, contributing to the development of the app over a period of approximately 1 year and 7 months.",
     techStack: ["Flutter", "RESTful Api", "Firebase", "Chat GPT", "Yii"],
     playstoreLinks: [
       "https://play.google.com/store/apps/details?id=com.sinarmasland.onesmile",
@@ -124,7 +124,7 @@ const projectsData = [
     title: "Homerun Indonesia",
     imageSrc: "./assets/projects/homerun.png",
     description:
-      "Homerun is a service application offering services such as decoration and garden management, Developed by Living Lab Ventures.</br></br>I work as a part-time programmer handling the frontend independently using React Native. My responsibilities include maintaining existing features and developing new ones.",
+      "Homerun is a service application offering services such as decoration and garden management, Developed by Living Lab Ventures. I work as a part-time programmer handling the frontend independently using React Native. My responsibilities include maintaining existing features and developing new ones.",
     techStack: ["React Native", "RESTful Api", "Firebase", "Node Js"],
     playstoreLinks: [
       "https://play.google.com/store/apps/details?id=com.homerun.homerunclient",
