@@ -38,6 +38,12 @@ function readMore(dots, moreText, btnText) {
   }
 }
 
+// onInit Web
+function onWebInitialize() {
+  generateProjects();
+  generatePersonalProjects();
+}
+
 // Generate dynamic HTML for projects
 function generateProjects() {
   const projectsContainer = document.getElementById("project-list");
@@ -82,7 +88,31 @@ function generateProjects() {
   });
 }
 
-// Sample project data
+// Function to generate dynamic HTML for projects
+function generatePersonalProjects() {
+  const projectsContainer = document.getElementById("other-projects");
+
+  personalProjectsData.forEach((project) => {
+    const projectHtml = `
+      <li class="project">
+        <a href="${project.githubLink}" target="_blank" rel="noreferrer">
+          <img src="${project.imageSrc}" alt="${project.title} screenshot" />
+          <div>
+            <h4>${project.title}</h4>
+            <p>${project.description}</p>
+            <ul>
+              ${project.techStack.map((tech) => `<li>${tech}</li>`).join("")}
+            </ul>
+          </div>
+        </a>
+      </li>
+    `;
+
+    projectsContainer.innerHTML += projectHtml;
+  });
+}
+
+// Work Projects data
 const projectsData = [
   {
     title: "Akadevo",
@@ -173,6 +203,59 @@ const projectsData = [
     ],
     webLink: "",
   },
+];
+
+// Personal Projects
+const personalProjectsData = [
+  {
+    githubLink: "https://github.com/ccprogrammer/movies-app",
+    imageSrc: "./assets/projects/onemovies.png",
+    title: "Movies Database With Free API",
+    description:
+      "My personal apps, latest movies database with free API from themoviedb.org",
+    techStack: ["Flutter", "Provider", "RESTful API"],
+  },
+  {
+    githubLink: "https://github.com/ccprogrammer/weather-app",
+    imageSrc: "./assets/projects/weatherapp.png",
+    title: "Weather Apps",
+    description:
+      "Weather apps using openweathermap.org using GetX state management",
+    techStack: ["Flutter", "GetX", "RESTful API"],
+  },
+  {
+    githubLink: "https://github.com/ccprogrammer/one-note",
+    imageSrc: "./assets/projects/onenote.png",
+    title: "Todo Note Apps",
+    description:
+      "A simple todo apps for my personal experiment with local storage",
+    techStack: ["Flutter", "Provider"],
+  },
+  {
+    githubLink: "https://github.com/ccprogrammer/shamo",
+    imageSrc: "./assets/projects/shamo.png",
+    title: "Shoes Market Apps, Shamo",
+    description:
+      "E-commerce apps with Provider state management integrated with API from Laravel",
+    techStack: ["Flutter", "Provider", "Laravel", "RESTful API"],
+  },
+  {
+    githubLink: "https://github.com/ccprogrammer/utara_drive",
+    imageSrc: "./assets/projects/udrive.png",
+    title: "Google Drive? it's uDrive!",
+    description:
+      "Cloud gallery image and video with Firestore as cloud storage",
+    techStack: ["Flutter", "Provider", "Firebase"],
+  },
+  {
+    githubLink: "https://ccprogrammer.github.io/nomaden/",
+    imageSrc: "./assets/projects/nomaden.png",
+    title: "Online Ticket Booking, Nomaden",
+    description:
+      "Ticket book website built with HTML & CSS and Laravel for CMS and API",
+    techStack: ["HTML", "CSS", "Bootstrap", "Laravel"],
+  },
+  // Add more project data objects as needed
 ];
 
 // initialize aos (library for scroll animation)
