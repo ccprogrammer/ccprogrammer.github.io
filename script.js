@@ -207,7 +207,7 @@ const projectsData = [
     title: "Layar",
     imageSrc: "./assets/projects/layar.png",
     description:
-      "Layar is a streaming platform showcasing programs by TVRI. As the Lead Frontend Developer, I initiated and integrated the project, incorporating UI design and the provided REST API from the team.",
+      "Layar is a streaming platform showcasing programs by TVRI.",
     workAchievements: [
       "Working as Freelance Lead Mobile Developer",
       "Initiating the mobile app from the beginning",
