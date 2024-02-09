@@ -66,6 +66,12 @@ function generateProjects() {
           <h3>${index + 1}</h3>
           <h2>${project.title}</h2>
           <p>${project.description}</p>
+          <p><strong>Work/Achievements:</strong></p>
+          <ul>
+            ${project.workAchievements
+              .map((value) => `<li>• ${value}</li>`)
+              .join("")}
+          </ul>
           <ul class="tech-stack">
             ${project.techStack.map((tech) => `<li>${tech}</li>`).join("")}
           </ul>
@@ -118,7 +124,17 @@ const projectsData = [
     title: "Akadevo",
     imageSrc: "./assets/projects/akadevo.png",
     description:
-      "Akadevo is a mobile app for school attendance tracking, scanning student cards with RFID through staff or teachers' mobile devices. Parents can monitor attendance in real-time. As the Lead Frontend Mobile Developer using Flutter, I initiated and completed the project in 3 months, integrating UI designs and the provided REST API",
+      "Akadevo is a mobile app for school attendance tracking, scanning student cards with RFID through staff or teachers' mobile devices.",
+    workAchievements: [
+      "Achieve 100+ user on Playstore",
+      "Lead Frontend Mobile Developer",
+      "Built 25+ screen following UI/UX design provided by teams",
+      "Connect 50+ Rest Api",
+      "Initiated and completed the project in 3 months",
+      "Implement Beautiful UI from design",
+      "Stable Rest Api Connection",
+      "Built both app for Staff & Parents app",
+    ],
     techStack: ["Flutter", "RESTful Api", "Firebase", "RFID", "Django"],
     playstoreLinks: [
       "https://play.google.com/store/apps/details?id=com.akadevo.staff",
@@ -130,7 +146,14 @@ const projectsData = [
     title: "Alomaid",
     imageSrc: "./assets/projects/alomaid.jpg",
     description:
-      "Alomaid is a website-based application designed to serve as a mediator between Malaysian employers and household assistants from Indonesia. I serve as the Lead Fullstack Programmer, using various development tools throughout the application's development from inception.",
+      "Alomaid is a website-based application designed to serve as a mediator between Malaysian employers and household assistants from Indonesia.",
+    workAchievements: [
+      "5000+ Maids have registered through the WebApp",
+      "Lead Fullstack Programmer",
+      "Using many no-code tools to develop the app",
+      "Implement Stable Api Connection",
+      "Translating UI design into the app",
+    ],
     techStack: [
       "FlutterFlow",
       "Xano",
@@ -147,7 +170,15 @@ const projectsData = [
     title: "Digital Village",
     imageSrc: "./assets/projects/digital-village.png",
     description:
-      "Digital Village is a social application designed for community use, adaptable for various communities with different names in India. As a freelance Flutter developer, my responsibility includes implementing several crucial features within this application.",
+      "Digital Village is a social application designed for community use, adaptable for various communities with different names in India.",
+    workAchievements: [
+      "Achieved 80+ users on Playstore/Appstore",
+      "Working as Flutter Developer",
+      "Has developed 3 features",
+      "Implement very stable REST API and local database connection",
+      "Translating UI/UX from Figma into app precisely",
+    ],
+
     techStack: ["Flutter", "RESTful Api", "MongoDB"],
     playstoreLinks: [
       "https://play.google.com/store/apps/details?id=com.opensort.org.Rajakkamangalam",
@@ -158,7 +189,14 @@ const projectsData = [
     title: "OneSmile",
     imageSrc: "./assets/projects/onesmile.png",
     description:
-      "OneSmile is an application serving residents in the BSD area of Tangerang City. This app offers various features including community engagement, shopping, and utility bill payments. In my role as a Middle Programmer, I am responsible for implementing various requested features, contributing to the development of the app over a period of approximately 1 year and 7 months.",
+      "OneSmile is an application serving residents in the BSD area of Tangerang City. This app offers various features including community engagement, shopping, and utility bill payments.",
+    workAchievements: [
+      "Working as Middle Programmer",
+      "Has developed 3 features",
+      "Maintaining and updating the existing features",
+      "Upgrading the app version to the latest Flutter Framework version",
+    ],
+
     techStack: ["Flutter", "RESTful Api", "Firebase", "Chat GPT", "Yii"],
     playstoreLinks: [
       "https://play.google.com/store/apps/details?id=com.sinarmasland.onesmile",
@@ -169,7 +207,13 @@ const projectsData = [
     title: "Layar",
     imageSrc: "./assets/projects/layar.png",
     description:
-      "Layar is a streaming platform showcasing programs by TVRI. As the Lead Frontend Developer, I initiated and integrated the project, incorporating UI design and the provided REST API from the team. Working independently, I served as the sole front-end developer throughout the 7-month project.",
+      "Layar is a streaming platform showcasing programs by TVRI. As the Lead Frontend Developer, I initiated and integrated the project, incorporating UI design and the provided REST API from the team.",
+    workAchievements: [
+      "Working as Freelance Lead Mobile Developer",
+      "Initiating the mobile app from the beginning",
+      "Translating 28+ UI/UX designs from Figma into the app",
+      "Connecting 66+ REST API",
+    ],
     techStack: [
       "Flutter",
       "RESTful Api",
@@ -186,17 +230,24 @@ const projectsData = [
     title: "Locum Here - Medical App",
     imageSrc: "./assets/projects/locumhere.png",
     description:
-      "LocumHere is an intermediary application connecting doctors and clinics in Malaysia. Clinics can search for or hire temporary doctors to perform specific tasks within the clinic. As a freelance developer, I was responsible for continuing and completing the project using FlutterFlow within a month.",
+      "LocumHere is an intermediary application connecting doctors and clinics in Malaysia. Clinics can search for or hire temporary doctors to perform specific tasks within the clinic.",
+    workAchievements: [
+      "Working as freelance frontend developer",
+      "Completing the remaining app features around 65% more or less",
+      "Connecting REST API provided by backend developer",
+      "Implementing UI/UX from Figma design",
+    ],
+
     techStack: ["FlutterFlow", "RESTful Api", "Xano"],
     playstoreLinks: [],
     webLink: "https://locumhere.com/",
   },
-
   {
     title: "Homerun Indonesia",
     imageSrc: "./assets/projects/homerun.png",
     description:
-      "Homerun is a service application offering services such as decoration and garden management, Developed by Living Lab Ventures. I work as a part-time programmer handling the frontend independently using React Native. My responsibilities include maintaining existing features and developing new ones.",
+      "Homerun is a service application offering services such as decoration and garden management, Developed by Living Lab Ventures.",
+    workAchievements: ["Improve 2 existing features UI & Api Connection"],
     techStack: ["React Native", "RESTful Api", "Firebase", "Node Js"],
     playstoreLinks: [
       "https://play.google.com/store/apps/details?id=com.homerun.homerunclient",
