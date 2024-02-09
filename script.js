@@ -129,7 +129,7 @@ const projectsData = [
       "Achieve 100+ user on Playstore",
       "Lead Frontend Mobile Developer",
       "Built 25+ screen following UI/UX design provided by teams",
-      "Connect 50+ Rest Api",
+      "Connecting 50+ Rest Api",
       "Initiated and completed the project in 3 months",
       "Implement Beautiful UI from design",
       "Stable Rest Api Connection",
